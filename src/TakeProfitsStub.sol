@@ -13,6 +13,5 @@ contract TakeProfitsStub is TakeProfitsHook {
         TakeProfitsHook addressToEtch
     ) TakeProfitsHook(_poolManager, "") {}
 
-    // make this a no-op in testing
     function validateHookAddress(BaseHook _this) internal pure override {}
 }
